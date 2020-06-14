@@ -1,0 +1,114 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+header .menu nav ul li a {
+	padding: 40px 30px;
+}
+.single-about {
+	padding: 60px 0px;
+}
+.single-about.border-3 {
+	padding: 65px 0;
+}
+.post-img {
+	margin-bottom: 40px;
+}
+.info-text h3 {
+	font-size: 60px;
+}
+.info-text p {
+	font-size: 22px;
+}
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.slider-innder h2 {
+	font-size: 30px;
+	line-height: 35px;
+}
+.slider-innder p {
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+.section-title h3 {
+	font-size: 40px;
+	line-height: 30px;
+}
+.single-reivew h2 {
+	font-size: 22px;
+}
+.single-mix {
+	width: 50%;
+}
+.single-reivew span {
+	font-size: 20px;
+}
+.angle2 {
+	border-bottom: 50px solid #FF6F6F;
+}
+.post-img {
+	margin-bottom: 40px;
+}
+.info-text h3 {
+	font-size: 20px;
+}
+.info-text p {
+	font-size: 18px;
+	line-height: 25px;
+}
+.info-text span {
+	font-size: 25px;
+}
+.overlay:before {
+	width:0;
+}
+.info2 {
+	border-bottom-color: #FBCF61;
+}
+.counter2 {
+	border-bottom-color: #A8D164;
+}
+#scrollUp {
+	right: 15px;
+	bottom: 20px;
+}
+.single-slider {
+	background-position: left;
+}
+.f-top-img {
+	margin-bottom: 15px;
+}
+.owl-nav {
+	display: none;
+}
+
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
